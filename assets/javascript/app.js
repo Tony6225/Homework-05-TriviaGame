@@ -1,6 +1,6 @@
 
 const questionTimer = 12;
-const questionInterval = 4;
+const questionInterval = 3;
 let timer;
 let time = 0;
 

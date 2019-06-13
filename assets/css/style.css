@@ -7,12 +7,13 @@ body {
     background-image: url('../images/oneRing.jpg');
     background-repeat: no-repeat;
     color: white;
-    background-size: auto 100%;
-    background-position: center top;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
 }
 
 header {
-    background: white;
+    background: #cca527c2;
     color: black;
 }
 
@@ -21,11 +22,11 @@ p {
 }
 
 #game-content {
-    height: 500px;
+    height: 525px;
 }
 
 #game-display {
-    background: white;
+    background: #cca527c2;
     color: black;
     width: 50%;
     text-align: center;
