@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>LOTR Trivia Game</title>
+</head>
+
+<body>
+
+    <div class="container" id="game-content">
+        <header class="container text-center">
+            <h1 id="title">LOTR Trivia Game</h1>
+        </header>
+
+        <div class='container' id="game-display">
+
+            <div id="time">Time Remaining: <span id="time-remaining">10</span><span> seconds</span></div>
+            <h3 id='question-number-section'>Question number <span id='question-number'></span></h3>
+            <div id='question'></div>
+
+            <form id="form">
+                <div id='choices'></div>
+                <input id='submit-choice' class="btn btn-primary" type="button" value="Submit">
+            </form>
+
+            <div id='result'></div>
+
+        </div>
+        <div class="container text-center" id="game-buttons">
+
+            <input id='start' class="btn btn-primary btn-lg" type="button" value="Start Game">
+            <input id='restart' class="btn btn-primary btn-lg" type="button" value="Restart Game">
+
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <script src='./assets/javascript/app.js'></script>
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    background-image: url('../images/oneRing.jpg');
+    background-repeat: no-repeat;
+    color: white;
+    background-size: auto 100%;
+    background-position: center top;
+}
+
+header {
+    background: white;
+    color: black;
+}
+
+p {
+    margin: 0;
+}
+
+#game-content {
+    height: 500px;
+}
+
+#game-display {
+    background: white;
+    color: black;
+    width: 50%;
+    text-align: center;
+}
+
+#title {
+    font-size: 4em;
+}
+
+#time {
+    padding-top: 15px;
+}
+
+#submit-choice {
+    margin-bottom: 15px;
+}
+
+.form-check {
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+      max-width: 650px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+      max-width: 650px;
+    }
+}
